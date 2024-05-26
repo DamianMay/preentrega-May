@@ -62,6 +62,7 @@ header{
 }
 .partesuperior{
     grid-area: uno;
+    height: 30px;
     background-color: #C7222C;
     display: flex;
     flex-direction: column;
