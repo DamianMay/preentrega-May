@@ -6,6 +6,8 @@ h1{
     font-size: 60px;
     font-style: normal;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
     }
 h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -19,7 +21,8 @@ h3{
     font-size: 50px;
     font-weight: 200;
     text-align: center;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 h4{
     font-family: 'Courier New', Courier, monospace;
@@ -51,8 +54,9 @@ header{
     height: 150px;
     padding-bottom: 20px;
     background-color: white;
-    /* position: sticky;
-    top: 0; */
+    position: sticky;
+    top: 0; 
+    z-index: 2;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -78,7 +82,8 @@ header{
 a img{
     width: 150px;
     height: 45px;
-    margin-left: 20px
+    margin-left: 20px;
+    margin-right: 30px;
 }
 .mitadDerechaheader{
     grid-area: tres;
@@ -87,23 +92,8 @@ a img{
     flex-direction: row;
     align-items: center;
 }
-.menu{
-    display: flex;
-    flex-direction: row;
-}
-.menu li{
-    list-style-type: none;
-    margin-right: 20px;
-}
-li a{
-    color: black;
-    text-decoration: none;
-}
-li a:hover{                         /*ESTO ES PARA CUANDO PASA EL CURSOR*/
-    color: red;
-}
-.menu ul{
-    list-style-type: none;
+.nav-link{
+    margin-right: 30px;
 }
 
 
@@ -117,6 +107,10 @@ li a:hover{                         /*ESTO ES PARA CUANDO PASA EL CURSOR*/
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+.categoriaFooter{
+    color: black;
+    text-decoration: none;
 }
 .categoriasFooter li{
     list-style-type: circle;
@@ -139,8 +133,11 @@ ion-icon{
 
 
 /*INDEX-MAIN*/
-.banner img{
-    width: 100%;
+
+.bannerPrincipal{
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 30px;
 }
 .menucategorias{
     display: flex;
