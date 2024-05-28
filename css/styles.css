@@ -98,12 +98,6 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-@media(max-width:600px){
-    .parteinferior{
-        max-width: 100%;
-        overflow-x: hidden;    
-    }
-}
 .mitadIzquierdaheader{
     display: flex;
     flex-direction: row;
@@ -114,6 +108,7 @@ header{
         width: 60%;
         display: flex;
         flex-direction: row-reverse;
+        justify-content: space-between;
         align-items: center;
     }
 }
@@ -136,7 +131,7 @@ header{
     .navbar-nav {
       display: flex;
       flex-direction: column;
-      padding-top: 60px;
+      padding-top: 70px;
     }
 }
 @media (max-width: 600px) {
@@ -171,7 +166,7 @@ header{
 @media(max-width: 600px){
     .mitadDerechaheader {
         justify-content: center;
-        width: 40%;
+        width: 30%;
     }
 }
 
@@ -230,7 +225,7 @@ ion-icon{
 }
 @media(max-width: 600px){
     ion-icon{
-        font-size: 1.5rem;
+        font-size: 2rem;
         margin-right: 15px;
     }
 }
