@@ -100,7 +100,8 @@ header{
 }
 @media(max-width:600px){
     .parteinferior{
-        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;    
     }
 }
 .mitadIzquierdaheader{
