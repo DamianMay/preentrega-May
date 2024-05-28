@@ -98,6 +98,11 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+@media(max-width:600px){
+    .parteinferior{
+        width: 100%;
+    }
+}
 .mitadIzquierdaheader{
     display: flex;
     flex-direction: row;
