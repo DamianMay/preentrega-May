@@ -406,7 +406,7 @@ ion-icon{
     }
   
     .producto {
-      flex: 0 0 auto; /* Evita que los elementos se encojan y permite el desplazamiento lateral */
+      flex:  0 auto; /* Evita que los elementos se encojan y permite el desplazamiento lateral */
       width: calc(80% - 20px); /* Ajusta el ancho según sea necesario */
       margin-right: 20px; /* Espacio entre elementos */
     }
@@ -416,8 +416,8 @@ ion-icon{
     }
   }.producto img{
     border-radius: 5px;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 article{
     display: flex;
