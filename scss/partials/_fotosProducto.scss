@@ -1,0 +1,14 @@
+.futuroProducto{
+    @include flex (flex, row, space-around,center );
+    flex-wrap: wrap;
+
+    article{
+        @include flex(flex,column,center,center);
+    }
+
+    .producto img{
+        width: 330px;
+        height: 330px;
+    }
+}
+

@@ -1,0 +1,30 @@
+.bannerBaby{
+    background-image: url(../Assets/Baby-banner.png);
+    @include bannerBaby-kids;
+        p{
+            margin-left: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: black
+        }    
+    
+
+    .botonesbannersbaby{
+        @include botones;
+        margin-inline: 1%;
+    }
+}
+.bannerKids{
+    background-image: url(../Assets/Kids-Banner.png);
+    @include bannerBaby-kids;
+        p{
+            margin-left: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: black
+        }    
+
+    .botonesbannerskids{
+        @include botones;
+        margin-inline: 1%;
+    }
+    
+}

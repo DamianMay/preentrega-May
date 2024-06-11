@@ -1,0 +1,44 @@
+.bannerNosotros img{
+    width: 100%;
+}
+.quienessomos{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 10px;
+
+    div{
+        padding: 25px;
+        justify-content: center;
+        align-content: center;
+    }
+    .izquierda-section-nosotros{
+        width: 50%;
+        margin: 100px;
+
+        p{
+            text-align: center;
+            font-weight: 600;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 17px;
+        }
+    }
+    .derecha-section-nosotros{
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        img{
+            border-radius: 10%;
+            width: 50%;
+        }
+    }
+}
+.mision p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+

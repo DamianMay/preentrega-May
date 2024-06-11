@@ -1,0 +1,205 @@
+@media(max-width:600px){
+    h1{
+        font-size: 45px;
+    }
+}
+@media(max-width:600px){
+    h2{
+        font-size: 35px;
+    }
+}
+
+/*RESPONSIVE HEADER*/
+
+@media(max-width:600px){
+    header{
+
+        .parteinferior{
+            
+            .mitadIzquierdaheader{
+                width: 70%;
+                @include flex (flex, row-reverse, space-between, center)
+            }
+        }
+    }
+}
+@media (max-width: 600px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 0;
+        left: -250px;
+        width: 250px;
+        height: 100%;
+        background-color: white;
+        transition: left 0.3s ease;
+        z-index: 10;;
+    }
+  
+    .navbar-collapse.show {
+        left: 0;
+    }
+  
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        padding-top: 70px;
+        margin-left: 10px;
+    }
+
+    .dropdown-menu{
+        --bs-dropdown-border-color: rgba(0, 0, 0 ,0);
+    }
+}
+
+@media (max-width: 600px) {
+    .btn-close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }    
+}
+@media (min-width: 600px) {
+    .btn-close {
+        display: none;
+    }    
+}
+@media(max-width: 600px){
+    .mitadDerechaheader {
+        margin-right: 5px;
+        justify-content: center;
+        width: 30%;
+    }
+}
+@media(max-width: 600px){
+    ion-icon{
+        font-size: 1.75rem;
+        margin-right: 5px; 
+    }
+}
+
+/*RESPONSIVE FOOTER*/
+
+@media(max-width: 600px){
+    footer{
+        flex-direction: column;
+
+        .footerIzquierdo{
+            width: 100%;
+            margin-top: 10px;
+
+            .categoriaFooter {
+                font-size: 12px; 
+            }          
+        }
+        .footerDerecha{
+            width: 100%;
+        }    
+    }
+}
+
+
+/*RESPONSIVE INDEX-MAIN*/
+
+@media(max-width:600px){
+    .menuCategorias{
+        @include flex(flex, column, center, center);  
+
+        .categoriaMini{
+            background-image: url(../Assets/categoria-cel-mini.png);
+            @include fotosCategorias-mobil;
+        }   
+        .categoriaBaby{
+            background-image: url(../Assets/categoria-cel-baby.png);
+            @include fotosCategorias-mobil;
+        }
+        .categoriaEllas{
+            background-image: url(../Assets/categoria-cel-niña.png);
+            @include fotosCategorias-mobil;
+        }
+        .categoriaEllos{
+            background-image: url(../Assets/Categoria-cel-niño.png);
+            @include fotosCategorias-mobil;
+        }    
+    }
+}
+
+@media(max-width:600px){
+    .botonCategorias{
+        padding: 10px 25px;
+    }
+}
+@media (max-width: 600px) {
+    .futuroProducto {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+
+        .producto img{
+            width: 200px;
+            height: 200px;
+        }
+    }
+    .producto {
+      flex:  0 auto; /* Evita que los elementos se encojan y permite el desplazamiento lateral */
+      width: calc(80% - 20px); /* Ajusta el ancho según sea necesario */
+      margin-right: 20px; /* Espacio entre elementos */
+    }
+  
+    .producto:last-child {
+      margin-right: 0; /* Elimina el margen derecho del último elemento */
+    }
+}
+@media (max-width: 600px) {
+}
+
+/*RESPONSIVE KIDS*/
+@media(max-width:600px){
+    .bannerKids{
+        background-image: url(../Assets/Banner-kids-cel.png);
+        background-size: cover;
+        height: 200px;
+
+        .botonesbannerskids{
+            padding: 10px 20px;
+        }    
+    }
+}
+
+/*RESPONSIVE BABY*/
+
+@media(max-width:600px){
+    .bannerBaby{
+        background-image: url(../Assets/Banner-babys-cel.png);
+        height: 200px;
+
+        .botonesbannersbaby{
+            padding: 10px 20px;
+            font-size: 10px;
+        }    
+    }
+}
+
+/*RESPONSIVE NOSOTROS*/
+
+@media(max-width:600px){
+    .quienessomos{
+        flex-direction: column;
+        align-items: center;
+
+        .izquierda-section-nosotros{
+            width: 90%;
+            margin: 0;
+
+            p{
+                font-size: 15px;
+                text-align: center;
+            }
+        } 
+        .derecha-section-nosotros{
+
+            img{
+                width: 100%;
+            }
+        }  
+    }
+}

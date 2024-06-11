@@ -1,0 +1,43 @@
+header{
+    background-color: white;
+    position: sticky;
+    top: 0; 
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    
+    .partesuperior{
+        background-color: $color-primario;
+        flex-wrap: wrap;
+        text-align: center;
+        
+        a{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 15px;
+            text-decoration: none;
+            color: white;
+            text-align: center;
+            margin-top:0;
+            margin-bottom: 0;
+       }
+
+    }
+    .parteinferior{
+        @include flex(flex, row, space-between, center);
+
+        .mitadIzquierdaheader{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .mitadDerechaheader{
+            margin: 20px;
+        
+        }        
+    }
+}
+
+
+

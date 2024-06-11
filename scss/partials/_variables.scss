@@ -1,0 +1,137 @@
+$color-primario: #CC2A33;
+$color-secundario: gray;
+$color-black: black;
+
+h1{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 60px;
+    color:$color-black;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+} 
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: $color-black;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+}
+
+@mixin logo($ancho, $alto, $margen-izquierdo, $margen-derecho){
+    width:$ancho;
+    height:$alto;
+    margin-left:$margen-izquierdo;
+    margin-right:$margen-derecho;
+}
+
+
+@mixin iconos($color, $grande, $margen-derecho){
+    color: $color;
+    font-size:$grande;
+    margin-right:$margen-derecho;
+}
+
+@mixin fotosCategoria{
+    background-size: cover;
+    border-radius: 25px;
+    width: 310px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+@mixin fotosCategorias-mobil{
+    height: 200px;
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-items: flex-start;
+}
+
+@mixin botones{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    padding: 15px 45px;
+    color: $color-black;
+    background-color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+@mixin bannerBaby-kids{
+    background-size: contain;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@mixin flex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@mixin flex($display, $flex-direction, $justify-content, $align-items){
+    display: $display;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+
+
+.botonesbannerbaby-kids{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botonesbannerbaby-kids .botonesbannersbaby:hover, 
+.botonesbannerbaby-kids .botonesbannerskids:hover, 
+.menuCategorias .botonCategorias:hover {
+    color: white;
+    background-color: black;
+}
+
+#logoheaderyfooter{
+    @include logo(150px,45px,20px,30px);
+}
+
+ion-icon{
+    @include iconos( black,2rem,35px);                       //esto aplica para iconos de header y footer
+}
+
+.bannerH2{
+    text-align:left;
+    margin-left: 25px;
+    margin-bottom: 0;
+}
+
+.edades-categorias {
+    font-family: monospace;
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    &:hover{
+        color: $color-primario;
+    }
+}
