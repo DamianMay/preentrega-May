@@ -1,5 +1,5 @@
 .bannerBaby{
-    background-image: url(../Assets/Baby-banner.png);
+    background-image: url(../assets/Baby-banner.png);
     @include bannerBaby-kids;
         p{
             margin-left: 25px;
@@ -14,7 +14,7 @@
     }
 }
 .bannerKids{
-    background-image: url(../Assets/Kids-Banner.png);
+    background-image: url(../assets/Kids-Banner.png);
     @include bannerBaby-kids;
         p{
             margin-left: 25px;

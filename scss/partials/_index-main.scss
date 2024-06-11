@@ -15,17 +15,17 @@
     }
 
     .categoriaBaby{
-        background-image: url(../Assets/mini-bebe.png);
+        background-image: url(../assets/mini-bebe.png);
         @include fotosCategoria;
     }
 
     .categoriaEllas{
-        background-image: url(../Assets/niña.png);
+        background-image: url(../assets/niña.png);
         @include fotosCategoria;
     }
 
     .categoriaEllos{
-        background-image: url(../Assets/niño.png);
+        background-image: url(../assets/niño.png);
         @include fotosCategoria;
     }
 }

@@ -105,19 +105,19 @@
         @include flex(flex, column, center, center);  
 
         .categoriaMini{
-            background-image: url(../Assets/categoria-cel-mini.png);
+            background-image: url(../assets/categoria-cel-mini.png);
             @include fotosCategorias-mobil;
         }   
         .categoriaBaby{
-            background-image: url(../Assets/categoria-cel-baby.png);
+            background-image: url(../assets/categoria-cel-baby.png);
             @include fotosCategorias-mobil;
         }
         .categoriaEllas{
-            background-image: url(../Assets/categoria-cel-niña.png);
+            background-image: url(../assets/categoria-cel-niña.png);
             @include fotosCategorias-mobil;
         }
         .categoriaEllos{
-            background-image: url(../Assets/Categoria-cel-niño.png);
+            background-image: url(../assets/Categoria-cel-niño.png);
             @include fotosCategorias-mobil;
         }    
     }
@@ -155,7 +155,7 @@
 /*RESPONSIVE KIDS*/
 @media(max-width:600px){
     .bannerKids{
-        background-image: url(../Assets/Banner-kids-cel.png);
+        background-image: url(../assets/Banner-kids-cel.png);
         background-size: cover;
         height: 200px;
 
@@ -169,7 +169,7 @@
 
 @media(max-width:600px){
     .bannerBaby{
-        background-image: url(../Assets/Banner-babys-cel.png);
+        background-image: url(../assets/Banner-babys-cel.png);
         height: 200px;
 
         .botonesbannersbaby{

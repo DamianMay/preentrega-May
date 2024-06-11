@@ -187,7 +187,7 @@ footer .footerDerecha .redsocialfooter {
   align-items: center;
 }
 .menuCategorias .categoriaBaby {
-  background-image: url(../Assets/mini-bebe.png);
+  background-image: url(../assets/mini-bebe.png);
   background-size: cover;
   border-radius: 25px;
   width: 310px;
@@ -198,7 +198,7 @@ footer .footerDerecha .redsocialfooter {
   align-items: center;
 }
 .menuCategorias .categoriaEllas {
-  background-image: url(../Assets/niña.png);
+  background-image: url(../assets/niña.png);
   background-size: cover;
   border-radius: 25px;
   width: 310px;
@@ -209,7 +209,7 @@ footer .footerDerecha .redsocialfooter {
   align-items: center;
 }
 .menuCategorias .categoriaEllos {
-  background-image: url(../Assets/niño.png);
+  background-image: url(../assets/niño.png);
   background-size: cover;
   border-radius: 25px;
   width: 310px;
@@ -252,7 +252,7 @@ footer .footerDerecha .redsocialfooter {
 }
 
 .bannerBaby {
-  background-image: url(../Assets/Baby-banner.png);
+  background-image: url(../assets/Baby-banner.png);
   background-size: contain;
   width: 100%;
   height: 350px;
@@ -278,7 +278,7 @@ footer .footerDerecha .redsocialfooter {
 }
 
 .bannerKids {
-  background-image: url(../Assets/Kids-Banner.png);
+  background-image: url(../assets/Kids-Banner.png);
   background-size: contain;
   width: 100%;
   height: 350px;
@@ -457,7 +457,7 @@ form div {
     align-items: center;
   }
   .menuCategorias .categoriaMini {
-    background-image: url(../Assets/categoria-cel-mini.png);
+    background-image: url(../assets/categoria-cel-mini.png);
     height: 200px;
     width: 90%;
     margin-top: 15px;
@@ -465,7 +465,7 @@ form div {
     align-items: flex-start;
   }
   .menuCategorias .categoriaBaby {
-    background-image: url(../Assets/categoria-cel-baby.png);
+    background-image: url(../assets/categoria-cel-baby.png);
     height: 200px;
     width: 90%;
     margin-top: 15px;
@@ -473,7 +473,7 @@ form div {
     align-items: flex-start;
   }
   .menuCategorias .categoriaEllas {
-    background-image: url(../Assets/categoria-cel-niña.png);
+    background-image: url(../assets/categoria-cel-niña.png);
     height: 200px;
     width: 90%;
     margin-top: 15px;
@@ -481,7 +481,7 @@ form div {
     align-items: flex-start;
   }
   .menuCategorias .categoriaEllos {
-    background-image: url(../Assets/Categoria-cel-niño.png);
+    background-image: url(../assets/Categoria-cel-niño.png);
     height: 200px;
     width: 90%;
     margin-top: 15px;
@@ -516,7 +516,7 @@ form div {
 /*RESPONSIVE KIDS*/
 @media (max-width: 600px) {
   .bannerKids {
-    background-image: url(../Assets/Banner-kids-cel.png);
+    background-image: url(../assets/Banner-kids-cel.png);
     background-size: cover;
     height: 200px;
   }
@@ -527,7 +527,7 @@ form div {
 /*RESPONSIVE BABY*/
 @media (max-width: 600px) {
   .bannerBaby {
-    background-image: url(../Assets/Banner-babys-cel.png);
+    background-image: url(../assets/Banner-babys-cel.png);
     height: 200px;
   }
   .bannerBaby .botonesbannersbaby {
