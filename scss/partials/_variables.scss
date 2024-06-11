@@ -72,8 +72,10 @@ h3{
 
 @mixin bannerBaby-kids{
     background-size: contain;
-    width: 100%;
+    max-width: 100%;
     height: 350px;
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

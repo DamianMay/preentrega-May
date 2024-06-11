@@ -254,8 +254,10 @@ footer .footerDerecha .redsocialfooter {
 .bannerBaby {
   background-image: url(../assets/Baby-banner.png);
   background-size: contain;
-  width: 100%;
+  max-width: 100%;
   height: 350px;
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -280,8 +282,10 @@ footer .footerDerecha .redsocialfooter {
 .bannerKids {
   background-image: url(../assets/Kids-Banner.png);
   background-size: contain;
-  width: 100%;
+  max-width: 100%;
   height: 350px;
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -517,7 +521,7 @@ form div {
 @media (max-width: 600px) {
   .bannerKids {
     background-image: url(../assets/Banner-kids-cel.png);
-    background-size: cover;
+    width: 100%;
     height: 200px;
   }
   .bannerKids .botonesbannerskids {
