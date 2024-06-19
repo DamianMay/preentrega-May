@@ -1,10 +1,10 @@
 @media(max-width:600px){
-    h1{
+    .titulo-principal{
         font-size: 45px;
     }
 }
 @media(max-width:600px){
-    h2{
+    h1{
         font-size: 35px;
     }
 }
@@ -50,7 +50,6 @@
         --bs-dropdown-border-color: rgba(0, 0, 0 ,0);
     }
 }
-
 @media (max-width: 600px) {
     .btn-close {
         position: absolute;

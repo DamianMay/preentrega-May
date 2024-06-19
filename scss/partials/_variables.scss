@@ -2,7 +2,8 @@ $color-primario: #CC2A33;
 $color-secundario: gray;
 $color-black: black;
 
-h1{
+
+.titulo-principal{
     font-family: "Poetsen One", sans-serif;
     font-size: 60px;
     color:$color-black;
@@ -11,7 +12,7 @@ h1{
     margin-bottom: 40px;
 } 
 
-h2{
+h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
     color: $color-black;
@@ -20,7 +21,7 @@ h2{
     margin-bottom: 10px;
 }
 
-h3{
+h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15px;
     font-weight: 100;
