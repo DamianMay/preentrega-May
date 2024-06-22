@@ -6,9 +6,7 @@ form{
     }
 }
 .formulario{
-    background-color: $color-primario;
-    background: rgb(2,0,36);
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(7,6,94,1) 1%, rgba(74,8,8,1) 7%, rgba(204,42,51,1) 66%);    padding-bottom: 20px;
+    background: linear-gradient( #c00, $color-primario)
 }
 .boton{
     margin-top: 10px;

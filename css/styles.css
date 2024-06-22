@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.titulo-principal {
+h1 {
   font-family: "Poetsen One", sans-serif;
   font-size: 60px;
   color: black;
@@ -8,7 +8,18 @@
   margin-bottom: 40px;
 }
 
-h1 {
+b {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.bannerH1 {
+  text-align: left;
+  margin-left: 25px;
+  margin-bottom: 0;
+}
+
+h2 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 40px;
   color: black;
@@ -17,11 +28,15 @@ h1 {
   margin-bottom: 10px;
 }
 
-h2 {
+h3 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 15px;
   font-weight: 100;
   text-align: center;
+}
+
+input {
+  border-radius: 5px;
 }
 
 .botonesbannerbaby-kids {
@@ -48,12 +63,7 @@ ion-icon {
   color: black;
   font-size: 2rem;
   margin-right: 35px;
-}
-
-.bannerH2 {
-  text-align: left;
-  margin-left: 25px;
-  margin-bottom: 0;
+  flex-shrink: 1;
 }
 
 .edades-categorias {
@@ -84,7 +94,6 @@ header {
   z-index: 2;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 header .partesuperior {
   background-color: #CC2A33;
@@ -112,7 +121,12 @@ header .parteinferior .mitadIzquierdaheader {
   align-items: center;
 }
 header .parteinferior .mitadDerechaheader {
+  display: flex;
+  justify-content: space-around; /* Distribuye los iconos equitativamente */
+  align-items: center; /* Centra los iconos verticalmente */
   margin: 20px;
+  box-sizing: border-box;
+  padding: 10px;
 }
 
 footer {
@@ -357,10 +371,7 @@ form div {
 }
 
 .formulario {
-  background-color: #CC2A33;
-  background: rgb(2, 0, 36);
-  background: radial-gradient(circle, rgb(2, 0, 36) 0%, rgb(7, 6, 94) 1%, rgb(74, 8, 8) 7%, rgb(204, 42, 51) 66%);
-  padding-bottom: 20px;
+  background: linear-gradient(#c00, #CC2A33);
 }
 
 .boton {

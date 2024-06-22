@@ -5,7 +5,6 @@ header{
     z-index: 2;
     display: flex;
     flex-direction: column;
-    flex-wrap:wrap;
     
     .partesuperior{
         background-color: $color-primario;
@@ -20,8 +19,7 @@ header{
             text-align: center;
             margin-top:0;
             margin-bottom: 0;
-       }
-
+        }
     }
     .parteinferior{
         @include flex(flex, row, space-between, center);
@@ -32,9 +30,13 @@ header{
             align-items: center;
         }
 
-        .mitadDerechaheader{
+        .mitadDerechaheader {
+            display: flex;
+            justify-content: space-around; /* Distribuye los iconos equitativamente */
+            align-items: center; /* Centra los iconos verticalmente */
             margin: 20px;
-        
+            box-sizing: border-box;
+            padding: 10px;
         }        
     }
 }
