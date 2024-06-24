@@ -33,19 +33,16 @@
         background-color: white;
         transition: left 0.3s ease;
         z-index: 10;;
-    }
-  
+    } 
     .navbar-collapse.show {
         left: 0;
     }
-  
     .navbar-nav {
         display: flex;
         flex-direction: column;
         padding-top: 70px;
         margin-left: 10px;
     }
-
     .dropdown-menu{
         --bs-dropdown-border-color: rgba(0, 0, 0 ,0);
     }
@@ -86,12 +83,12 @@
             width: 100%;
             margin-top: 10px;
 
-            .ul{
+            ul{
                 margin-right: 70px;
             }
 
             .categoriaFooter {
-                font-size: 12px; 
+                font-size: 12px;
             }          
         }
         .footerDerecha{
